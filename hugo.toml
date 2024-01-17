@@ -2,3 +2,5 @@ baseURL = 'https://iamthana.com/'
 languageCode = 'en-us'
 title = 'Samut Note'
 theme = 'PaperMod'
+
+params.assets.favicon = "assets/favicon.ico"
