@@ -11,7 +11,7 @@ date = 2024-01-19T22:26:45+07:00
 
 #### 1. Basic setup
 
-```sh
+```shell
 sudo apt update && sudo apt upgrade -y
 sudo timedatectl set-timezone Asia/Bangkok
 
@@ -20,7 +20,7 @@ sudo apt install curl git -y
 
 #### 2. Install nodejs (v.20) and pm2
 
-```sh
+```shell
 curl -sL https://deb.nodesource.com/setup_20.x -o /tmp/nodesource_setup.sh
 
 sudo bash /tmp/nodesource_setup.sh
@@ -39,7 +39,7 @@ pm2 --version
 
 #### 3. Install Uptime Kuma
 
-```sh
+```shell
 git clone https://github.com/louislam/uptime-kuma.git
 
 cd uptime-kuma
@@ -57,7 +57,7 @@ pm2 save && pm2 startup
 
 #### 4. Update Uptime Kuma
 
-```sh
+```shell
 git fetch --all
 git checkout 1.23.11 --force
 
