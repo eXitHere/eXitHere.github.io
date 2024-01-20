@@ -14,13 +14,13 @@ date = 2024-01-20T12:56:17+07:00
     "currentPage": "หน้าปัจจุบัน",
     "nextPage": "หน้าถัดไปถ้ามี แต่ถ้าไม่มีจะเป็น Null",
     "prevPage": "หน้าก่อนหน้าถ้ามี แต่ถ้าไม่มีจะเป็น Null",
-    "count": "จำนวน data ทั้งหมดที่มี"
+    "count": "จำนวน page ที่มี"
 }
 ```
 
 ซึ่งจะทำให้ Frontend สามารถนำไปใช้งานได้ง่ายยิ่งขึ้น
 
-#### 1. สร้างไฟล์ utils/pagination.util/ts
+#### 1. สร้างไฟล์ utils/pagination.util.js
 
 ```js
 interface PaginationParams {
